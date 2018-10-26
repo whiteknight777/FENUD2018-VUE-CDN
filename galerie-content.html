@@ -1,0 +1,148 @@
+<!--Gallery-->
+<!-- <section id="our-portfolio" class="bglight padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2 col-sm-12 text-center">
+                        <div class="heading-title wow fadeInUp" data-wow-delay="300ms">
+                            <span>GALLERIE PHOTO</span>
+                            <h2 class="darkcolor bottom10 toUpper">de l'événement</h2>
+                            <p class="heading_space">Découvrez quelques images de l'événement </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <v-tabs slot="extension" v-model="tab" grow>
+                        <v-tabs-slider color="amber"></v-tabs-slider>
+
+                        <v-tab v-for="item in items" :key="item">
+                            {{ item }}
+                        </v-tab>
+                    </v-tabs>
+
+                    <v-tabs-items v-model="tab">
+                        <v-tab-item v-for="(item,i) in items" :key="i">
+
+                            <v-card flat v-if="i === 0">
+                                <div :id="'flat-gallery-'+i" class="cbp dark_overlay">
+                                    <div class="cbp-item web logo">
+                                        <img src="img/galerie/Formation-java/javamini1515142020.jpg" alt="">
+                                        <div class="overlay center-block whitecolor">
+                                            <a class="plus" data-fancybox="gallery" href="http://www.themesindustry.com/html/xeone/images/gallery-flat1.jpg"></a>
+                                            <h4 class="top30">Wood Work</h4>
+                                            <p>Small Portfolio Detail Here</p>
+                                        </div>
+                                    </div>
+                                    <div class="cbp-item graphic print">
+                                        <img src="http://www.themesindustry.com/html/xeone/images/gallery-flat2.jpg"
+                                            alt="">
+                                        <div class="overlay center-block whitecolor">
+                                            <a class="plus" data-fancybox="gallery" href="http://www.themesindustry.com/html/xeone/images/gallery-flat2.jpg"></a>
+                                            <h4 class="top30">Wood Work</h4>
+                                            <p>Small Portfolio Detail Here</p>
+                                        </div>
+                                    </div>
+                                    <div class="cbp-item logo graphic">
+                                        <img src="http://www.themesindustry.com/html/xeone/images/gallery-flat3.jpg"
+                                            alt="">
+                                        <div class="overlay center-block whitecolor">
+                                            <a class="plus" data-fancybox="gallery" href="https://www.youtube.com/watch?v=_sI_Ps7JSEk&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0"></a>
+                                            <h4 class="top30">Wood Work</h4>
+                                            <p>Small Portfolio Detail Here</p>
+                                        </div>
+                                    </div>
+                                    <div class="cbp-item print">
+                                        <img src="http://www.themesindustry.com/html/xeone/images/gallery-flat4.jpg"
+                                            alt="">
+                                        <div class="overlay center-block whitecolor">
+                                            <a class="plus" data-fancybox="gallery" href="http://www.themesindustry.com/html/xeone/images/gallery-flat4.jpg"></a>
+                                            <h4 class="top30">Wood Work</h4>
+                                            <p>Small Portfolio Detail Here</p>
+                                        </div>
+                                    </div>
+                                    <div class="cbp-item logo">
+                                        <img src="http://www.themesindustry.com/html/xeone/images/gallery-flat5.jpg"
+                                            alt="">
+                                        <div class="overlay center-block whitecolor">
+                                            <a class="plus" data-fancybox="gallery" href="http://www.themesindustry.com/html/xeone/images/gallery-flat5.jpg"></a>
+                                            <h4 class="top30">Wood Work</h4>
+                                            <p>Small Portfolio Detail Here</p>
+                                        </div>
+                                    </div>
+                                    <div class="cbp-item web print graphic">
+                                        <img src="http://www.themesindustry.com/html/xeone/images/gallery-flat6.jpg"
+                                            alt="">
+                                        <div class="overlay center-block whitecolor">
+                                            <a class="plus" data-fancybox="gallery" href="http://www.themesindustry.com/html/xeone/images/gallery-flat6.jpg"></a>
+                                            <h4 class="top30">Wood Work</h4>
+                                            <p>Small Portfolio Detail Here</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </v-card>
+
+                            <v-card flat v-if="i === 1">
+                                <div :id="'flat-gallery-'+i" class="cbp dark_overlay">
+                                    <div class="cbp-item web logo">
+                                        <img src="http://www.themesindustry.com/html/xeone/images/gallery-flat1.jpg"
+                                            alt="">
+                                        <div class="overlay center-block whitecolor">
+                                            <a class="plus" data-fancybox="gallery" href="http://www.themesindustry.com/html/xeone/images/gallery-flat1.jpg"></a>
+                                            <h4 class="top30">Wood Work</h4>
+                                            <p>Small Portfolio Detail Here</p>
+                                        </div>
+                                    </div>
+                                    <div class="cbp-item graphic print">
+                                        <img src="http://www.themesindustry.com/html/xeone/images/gallery-flat2.jpg"
+                                            alt="">
+                                        <div class="overlay center-block whitecolor">
+                                            <a class="plus" data-fancybox="gallery" href="http://www.themesindustry.com/html/xeone/images/gallery-flat2.jpg"></a>
+                                            <h4 class="top30">Wood Work</h4>
+                                            <p>Small Portfolio Detail Here</p>
+                                        </div>
+                                    </div>
+                                    <div class="cbp-item logo graphic">
+                                        <img src="http://www.themesindustry.com/html/xeone/images/gallery-flat3.jpg"
+                                            alt="">
+                                        <div class="overlay center-block whitecolor">
+                                            <a class="plus" data-fancybox="gallery" href="https://www.youtube.com/watch?v=_sI_Ps7JSEk&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0"></a>
+                                            <h4 class="top30">Wood Work</h4>
+                                            <p>Small Portfolio Detail Here</p>
+                                        </div>
+                                    </div>
+                                    <div class="cbp-item print">
+                                        <img src="http://www.themesindustry.com/html/xeone/images/gallery-flat4.jpg"
+                                            alt="">
+                                        <div class="overlay center-block whitecolor">
+                                            <a class="plus" data-fancybox="gallery" href="http://www.themesindustry.com/html/xeone/images/gallery-flat4.jpg"></a>
+                                            <h4 class="top30">Wood Work</h4>
+                                            <p>Small Portfolio Detail Here</p>
+                                        </div>
+                                    </div>
+                                    <div class="cbp-item logo">
+                                        <img src="http://www.themesindustry.com/html/xeone/images/gallery-flat5.jpg"
+                                            alt="">
+                                        <div class="overlay center-block whitecolor">
+                                            <a class="plus" data-fancybox="gallery" href="http://www.themesindustry.com/html/xeone/images/gallery-flat5.jpg"></a>
+                                            <h4 class="top30">Wood Work</h4>
+                                            <p>Small Portfolio Detail Here</p>
+                                        </div>
+                                    </div>
+                                    <div class="cbp-item web print graphic">
+                                        <img src="http://www.themesindustry.com/html/xeone/images/gallery-flat6.jpg"
+                                            alt="">
+                                        <div class="overlay center-block whitecolor">
+                                            <a class="plus" data-fancybox="gallery" href="http://www.themesindustry.com/html/xeone/images/gallery-flat6.jpg"></a>
+                                            <h4 class="top30">Wood Work</h4>
+                                            <p>Small Portfolio Detail Here</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </v-card>
+
+                        </v-tab-item>
+                    </v-tabs-items>
+                </div>
+
+            </div>
+        </section> -->
+<!--Gallery ends -->
